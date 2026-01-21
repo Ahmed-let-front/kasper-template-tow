@@ -256,8 +256,8 @@ body {
     z-index: 1;
     background-color: transparent;
     transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
   }
-
   .text {
     display: flex;
     justify-content: flex-end;
@@ -267,7 +267,6 @@ body {
     top: 50%;
     transform: translateY(-50%);
     inline-size: 100%;
-    z-index: 0;
     .content {
       line-height: 1.5;
 
