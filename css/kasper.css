@@ -227,7 +227,7 @@ body {
         gap: 1.5rem;
         height: auto;
         width: fit-content;
-        z-index: 2;
+        z-index: 0;
         padding: 0;
       }
       nav {
@@ -249,12 +249,6 @@ body {
   background-image: url("../assets/images/landing.jpg");
   position: relative;
   background-size: cover;
-  &::after {
-    position: absolute;
-    inset: 0;
-    content: "";
-    background-color: rgba(0, 0, 0, 0.3);
-  }
   &::before {
     content: "";
     position: absolute;
@@ -273,7 +267,7 @@ body {
     top: 50%;
     transform: translateY(-50%);
     inline-size: 100%;
-    z-index: 2;
+    z-index: 0;
     .content {
       line-height: 1.5;
 
