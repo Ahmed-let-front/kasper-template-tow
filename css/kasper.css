@@ -269,7 +269,6 @@ body {
     z-index: 0;
     .content {
       line-height: 1.5;
-
       .h1-of-project {
         color: white;
         font-weight: normal;
@@ -284,7 +283,6 @@ body {
       }
     }
   }
-
   @media (min-width: 62rem) {
     .text {
       inline-size: 50% !important;
