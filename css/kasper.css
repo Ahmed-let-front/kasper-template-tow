@@ -267,6 +267,7 @@ body {
     top: 50%;
     transform: translateY(-50%);
     inline-size: 100%;
+    z-index: 0;
     .content {
       line-height: 1.5;
 
